@@ -16,9 +16,9 @@
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#gallery">Gallery</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <!-- Hamburger -->
   <div class="hamburger">&#9776;</div>
 </nav>
 
@@ -29,7 +29,6 @@
 </header>
 
 <div class="container">
-
   <div class="section" id="about">
     <h2>About Me</h2>
     <p>Hello! I’m a passionate student learning web development and design. I enjoy creating clean and user-friendly websites that are both functional and attractive.</p>
@@ -52,6 +51,22 @@
     </ul>
   </div>
 
+  <!-- 🔹 Gallery Section -->
+  <div class="section" id="gallery">
+    <h2>Interactive Image Gallery</h2>
+    <div class="gallery">
+      <div class="main-image">
+        <img id="mainImage" src="iloveee.jpg" alt="Main Display">
+      </div>
+      <div class="thumbnails">
+        <img src="iloveanimals.jpg" alt="Thumbnail 1">
+        <img src="ilovecrochet.jpg" alt="Thumbnail 2">
+        <img src="ilovemybestie.jpg" alt="Thumbnail 3">
+        <img src="ilovefood.jpg" alt="Thumbnail 4">
+      </div>
+    </div>
+  </div>
+
   <div class="section" id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:mariabasumataryx3@gmail.com">mariabasumataryx3@gmail.com</a></p>
@@ -62,12 +77,18 @@
       <a href="https://www.instagram.com/mxmariax3?igsh=dXpzZ2x6NWlxcHcx&utm_source=qr" target="_blank">Instagram</a>
     </div>
   </div>
-
 </div>
 
 <footer>
   &copy; Maria Basumatary :3
 </footer>
+
+<!-- 🔹 Modal for Enlarged Image -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="caption"></div>
+</div>
 
 <script src="script.js"></script>
 </body>
