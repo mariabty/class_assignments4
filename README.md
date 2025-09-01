@@ -1,4 +1,7 @@
 # class_assignments4
+
+PART 1
+
 EXPERIMENT 4: Interactive Image Gallery (JavaScript DOM Manipulation)
 
 ● Task: Create a simple image gallery where clicking on a thumbnail displays a larger
