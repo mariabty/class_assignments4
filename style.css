@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: lightcyan;
+  color: #333;
+}
+
+/* 🔹 Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink; 
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: pink;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Header */
+header {
+  background: pink;
+  color: black;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: beige;
+  border-radius: 8px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+/* Social Links */
+.social a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: lightgreen;
+}
