@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: limegreen; 
+  background: pink; 
   padding: 15px 20px;
   position: sticky;
   top: 0;
@@ -55,7 +55,7 @@ body {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: pink;
+    background: plum;
     position: absolute;
     top: 60px;
     right: 20px;
